@@ -1,7 +1,13 @@
 /*!
- * Vue.js v2.4.4
+ * Vue.js v2.5.13
  * (c) 2014-2017 Evan You
  * Released under the MIT License.
+ */
+
+/**
+ * vuex v3.0.1
+ * (c) 2017 Evan You
+ * @license MIT
  */
 
 /*!
@@ -23,10 +29,3 @@ object-assign
 (c) Sindre Sorhus
 @license MIT
 */
-
-/*!
- * Determine if an object is a Buffer
- *
- * @author   Feross Aboukhadijeh <https://feross.org>
- * @license  MIT
- */
