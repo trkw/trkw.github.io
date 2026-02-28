@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>Memo</title><link>https://trkw.github.io</link><description>My memo posts</description><item><title>Memo</title><link>https://trkw.github.io/2025-01-27.html</link><description><![CDATA[I couldn’t find one, so I decided to create it.]]></description><pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate></item><item><title>Hello, World!</title><link>https://trkw.github.io/2025-01-26.html</link><description><![CDATA[My first blog post using the static site generator]]></description><pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Blog</title>
+<link>trkw.github.io</link>
+<description>trkw&apos;s blog</description>
+<atom:link href="trkw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>ブログ始める</title>
+<link>trkw.github.io/posts/2026-02-28-blog.html</link>
+<guid>trkw.github.io/posts/2026-02-28-blog.html</guid>
+<pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Zig Tips &amp; Tricks</title>
+<link>trkw.github.io/posts/zig-tips.html</link>
+<guid>trkw.github.io/posts/zig-tips.html</guid>
+<pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Hello, World!</title>
+<link>trkw.github.io/posts/hello-world.html</link>
+<guid>trkw.github.io/posts/hello-world.html</guid>
+<pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+</item>
+</channel>
+</rss>
