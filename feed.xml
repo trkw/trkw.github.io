@@ -6,6 +6,12 @@
     <description>trkw's blog</description>
     <atom:link href="https://trkw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>ブログをZigからVite+に移行した</title>
+      <link>https://trkw.github.io/posts/2026-03-16-zig-to-vite-plus</link>
+      <guid>https://trkw.github.io/posts/2026-03-16-zig-to-vite-plus</guid>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>ブログの投稿しやすいようにする</title>
       <link>https://trkw.github.io/posts/2026-03-02-blog-app</link>
       <guid>https://trkw.github.io/posts/2026-03-02-blog-app</guid>
