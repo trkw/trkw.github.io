@@ -1,89 +1,23 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='white'/><text x='50' y='78' font-family='Georgia,serif' font-weight='bold' font-size='80' text-anchor='middle' fill='black'>B</text></svg>">
-  <style>
-    :root {
-      --fg: #1a1a1a;
-      --bg: #fafafa;
-      --accent: #2563eb;
-      --muted: #6b7280;
+<!DOCTYPE html><html lang="ja"><head><meta charSet="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,&lt;svg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 100 100&#x27;&gt;&lt;rect width=&#x27;100&#x27; height=&#x27;100&#x27; fill=&#x27;white&#x27;/&gt;&lt;text x=&#x27;50&#x27; y=&#x27;78&#x27; font-family=&#x27;Georgia,serif&#x27; font-weight=&#x27;bold&#x27; font-size=&#x27;80&#x27; text-anchor=&#x27;middle&#x27; fill=&#x27;black&#x27;&gt;B&lt;/text&gt;&lt;/svg&gt;"/><title>Blog</title><link rel="modulepreload" href="/assets/manifest-4cc8823a.js"/><link rel="modulepreload" href="/assets/entry.client-n-OHb5u9.js"/><link rel="modulepreload" href="/assets/chunk-LFPYN7LY-BV6Tfkox.js"/><link rel="modulepreload" href="/assets/root-BhV0_SRe.js"/><link rel="modulepreload" href="/assets/home-HeWdsJEf.js"/><link rel="modulepreload" href="/assets/posts-BudS0kWY.js"/><link rel="stylesheet" href="/assets/root-B4mAs4DV.css"/></head><body><div class="container"><h1>Blog</h1><ul class="post-list"><li><a href="/posts/2026-03-02-blog-app" data-discover="true">ブログの投稿しやすいようにする</a><span class="date">2026-03-02</span></li><li><a href="/posts/2026-02-28-blog" data-discover="true">ブログ始める</a><span class="date">2026-02-28</span></li><li><a href="/posts/zig-tips" data-discover="true">Zig Tips &amp; Tricks</a><span class="date">2026-02-27</span></li><li><a href="/posts/hello-world" data-discover="true">Hello, World!</a><span class="date">2026-02-26</span></li></ul></div><script>((storageKey2, restoreKey) => {
+    if (!window.history.state || !window.history.state.key) {
+      let key = Math.random().toString(32).slice(2);
+      window.history.replaceState({ key }, "");
     }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
+    try {
+      let positions = JSON.parse(sessionStorage.getItem(storageKey2) || "{}");
+      let storedY = positions[restoreKey || window.history.state.key];
+      if (typeof storedY === "number") {
+        window.scrollTo(0, storedY);
+      }
+    } catch (error) {
+      console.error(error);
+      sessionStorage.removeItem(storageKey2);
     }
+  })("react-router-scroll-positions", null)</script><script>window.__reactRouterContext = {"basename":"/","future":{"unstable_optimizeDeps":false,"unstable_subResourceIntegrity":false,"unstable_trailingSlashAwareDataRequests":false,"unstable_previewServerPrerendering":false,"v8_middleware":false,"v8_splitRouteModules":false,"v8_viteEnvironmentApi":false},"routeDiscovery":{"mode":"initial"},"ssr":false,"isSpaMode":false};window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">import "/assets/manifest-4cc8823a.js";
+import * as route0 from "/assets/root-BhV0_SRe.js";
+import * as route1 from "/assets/home-HeWdsJEf.js";
+  
+  window.__reactRouterRouteModules = {"root":route0,"routes/home":route1};
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--fg);
-      line-height: 1.7;
-      padding: 2rem 1rem;
-    }
-
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
-
-    ul {
-      list-style: none;
-    }
-
-    li {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      padding: 0.75rem 0;
-      border-bottom: 1px solid #e5e7eb;
-      gap: 1rem;
-    }
-
-    li:last-child {
-      border-bottom: none;
-    }
-
-    a {
-      color: var(--fg);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    a:hover {
-      color: var(--accent);
-    }
-
-    .date {
-      color: var(--muted);
-      font-size: 0.875rem;
-      white-space: nowrap;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <h1>Blog</h1>
-    <ul>
-      <li><a href="/posts/2026-03-02-blog-app.html">ブログの投稿しやすいようにする</a> <span class="date">2026年3月2日</span></li>
-<li><a href="/posts/2026-02-28-blog.html">ブログ始める</a> <span class="date">2026年2月28日</span></li>
-<li><a href="/posts/zig-tips.html">Zig Tips & Tricks</a> <span class="date">2026年2月27日</span></li>
-<li><a href="/posts/hello-world.html">Hello, World!</a> <span class="date">2026年2月26日</span></li>
-
-    </ul>
-  </div>
-</body>
-
-</html>
+import("/assets/entry.client-n-OHb5u9.js");</script><!--$?--><template id="B:0"></template><!--/$--><script id="_R_">requestAnimationFrame(function(){$RT=performance.now()});</script><div hidden id="S:0"><script>window.__reactRouterContext.streamController.enqueue("[{\"_1\":2,\"_3\":-5,\"_4\":-5},\"loaderData\",{},\"actionData\",\"errors\"]\n");</script><!--$?--><template id="B:1"></template><!--/$--></div><script>$RB=[];$RV=function(a){$RT=performance.now();for(var b=0;b<a.length;b+=2){var c=a[b],e=a[b+1];null!==e.parentNode&&e.parentNode.removeChild(e);var f=c.parentNode;if(f){var g=c.previousSibling,h=0;do{if(c&&8===c.nodeType){var d=c.data;if("/$"===d||"/&"===d)if(0===h)break;else h--;else"$"!==d&&"$?"!==d&&"$~"!==d&&"$!"!==d&&"&"!==d||h++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;e.firstChild;)f.insertBefore(e.firstChild,c);g.data="$";g._reactRetry&&requestAnimationFrame(g._reactRetry)}}a.length=0};
+$RC=function(a,b){if(b=document.getElementById(b))(a=document.getElementById(a))?(a.previousSibling.data="$~",$RB.push(a,b),2===$RB.length&&("number"!==typeof $RT?requestAnimationFrame($RV.bind(null,$RB)):(a=performance.now(),setTimeout($RV.bind(null,$RB),2300>a&&2E3<a?2300-a:$RT+300-a)))):b.parentNode.removeChild(b)};$RC("B:0","S:0")</script><div hidden id="S:1"><script>window.__reactRouterContext.streamController.close();</script></div><script>$RC("B:1","S:1")</script></body></html>

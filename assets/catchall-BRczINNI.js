@@ -1,0 +1,1 @@
+import{w as n,p as t,t as o}from"./chunk-LFPYN7LY-BV6Tfkox.js";function r(){return[{title:"404 Not Found"}]}const i=n(function(){return t.jsxs("div",{className:"container",children:[t.jsx("h1",{children:"404"}),t.jsx("p",{children:"ページが見つかりません。"}),t.jsx("p",{children:t.jsx(o,{to:"/",children:"← ホームへ"})})]})});export{i as default,r as meta};

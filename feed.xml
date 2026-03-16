@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>Blog</title>
-<link>trkw.github.io</link>
-<description>trkw&apos;s blog</description>
-<atom:link href="trkw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<item>
-<title>ブログの投稿しやすいようにする</title>
-<link>trkw.github.io/posts/2026-03-02-blog-app.html</link>
-<guid>trkw.github.io/posts/2026-03-02-blog-app.html</guid>
-<pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
-<title>ブログ始める</title>
-<link>trkw.github.io/posts/2026-02-28-blog.html</link>
-<guid>trkw.github.io/posts/2026-02-28-blog.html</guid>
-<pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
-<title>Zig Tips &amp; Tricks</title>
-<link>trkw.github.io/posts/zig-tips.html</link>
-<guid>trkw.github.io/posts/zig-tips.html</guid>
-<pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-</item>
-<item>
-<title>Hello, World!</title>
-<link>trkw.github.io/posts/hello-world.html</link>
-<guid>trkw.github.io/posts/hello-world.html</guid>
-<pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-</item>
-</channel>
+  <channel>
+    <title>Blog</title>
+    <link>https://trkw.github.io</link>
+    <description>trkw's blog</description>
+    <atom:link href="https://trkw.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ブログの投稿しやすいようにする</title>
+      <link>https://trkw.github.io/posts/2026-03-02-blog-app</link>
+      <guid>https://trkw.github.io/posts/2026-03-02-blog-app</guid>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ブログ始める</title>
+      <link>https://trkw.github.io/posts/2026-02-28-blog</link>
+      <guid>https://trkw.github.io/posts/2026-02-28-blog</guid>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zig Tips &amp; Tricks</title>
+      <link>https://trkw.github.io/posts/zig-tips</link>
+      <guid>https://trkw.github.io/posts/zig-tips</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hello, World!</title>
+      <link>https://trkw.github.io/posts/hello-world</link>
+      <guid>https://trkw.github.io/posts/hello-world</guid>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
 </rss>
